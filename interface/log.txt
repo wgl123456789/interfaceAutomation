@@ -1,0 +1,53 @@
+[2019-06-25 18:24:03] INFO [<module>: run_all.py, 8] ================================== 测试开始 ==================================
+[2019-06-25 18:25:00] INFO [<module>: run_all.py, 8] ================================== 测试开始 ==================================
+[2019-06-25 18:25:00] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-25 18:25:00] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-25 18:25:00] INFO [log_case_info: case_log.py, 7] 测试用例：test_user_login_normal
+[2019-06-25 18:25:00] INFO [log_case_info: case_log.py, 8] url：http://115.28.108.130:5000/api/user/login/
+[2019-06-25 18:25:00] INFO [log_case_info: case_log.py, 9] 请求参数：{"name": "张三","password":"123456"}
+[2019-06-25 18:25:00] INFO [log_case_info: case_log.py, 10] 期望结果：<h1>登录成功</h1>
+[2019-06-25 18:25:00] INFO [log_case_info: case_log.py, 11] 实际结果：<h1>登录成功</h1>
+[2019-06-25 18:31:19] INFO [<module>: run_all.py, 8] ================================== 测试开始 ==================================
+[2019-06-25 18:31:19] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-25 18:31:19] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-25 18:31:19] INFO [log_case_info: case_log.py, 7] 测试用例：test_user_login_normal
+[2019-06-25 18:31:19] INFO [log_case_info: case_log.py, 8] url：http://115.28.108.130:5000/api/user/login/
+[2019-06-25 18:31:19] INFO [log_case_info: case_log.py, 9] 请求参数：{"name": "张三","password":"123456"}
+[2019-06-25 18:31:19] INFO [log_case_info: case_log.py, 10] 期望结果：<h1>登录成功</h1>
+[2019-06-25 18:31:19] INFO [log_case_info: case_log.py, 11] 实际结果：<h1>登录成功</h1>
+[2019-06-25 18:31:22] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-25 18:31:22] INFO [<module>: run_all.py, 17] ================================== 测试结束 ==================================
+[2019-06-26 23:55:32] INFO [<module>: run_all.py, 8] ================================== 测试开始 ==================================
+[2019-06-26 23:55:32] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-26 23:55:32] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 42
+[2019-06-26 23:55:36] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-26 23:55:36] INFO [<module>: run_all.py, 17] ================================== 测试结束 ==================================
+[2019-06-27 11:16:42] INFO [<module>: run_all.py, 8] ================================== 测试开始 ==================================
+[2019-06-27 11:16:42] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-27 11:16:42] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-27 11:16:44] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-27 11:16:44] INFO [<module>: run_all.py, 17] ================================== 测试结束 ==================================
+[2019-06-27 11:36:44] INFO [<module>: run_all.py, 9] ================================== 测试开始 ==================================
+[2019-06-27 11:36:44] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-27 11:36:46] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-27 11:36:47] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
+[2019-06-27 14:19:27] INFO [<module>: run_all.py, 9] ================================== 测试开始 ==================================
+[2019-06-27 14:19:27] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-27 14:19:27] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-27 14:19:30] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-27 14:19:30] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
+[2019-06-27 23:30:38] INFO [<module>: run_all.py, 9] ================================== 测试开始 ==================================
+[2019-06-27 23:30:38] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-27 23:30:38] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-27 23:30:41] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-27 23:30:41] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
+[2019-06-28 00:39:00] INFO [<module>: run_all.py, 9] ================================== 测试开始 ==================================
+[2019-06-28 00:39:00] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-28 00:39:00] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-28 00:39:02] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-28 00:39:02] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
+[2019-06-28 00:39:25] INFO [<module>: run_all.py, 9] ================================== 测试开始 ==================================
+[2019-06-28 00:39:25] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-28 00:39:25] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-28 00:39:27] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-28 00:39:28] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
