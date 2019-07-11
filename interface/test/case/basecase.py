@@ -8,6 +8,8 @@ from interface.lib.read_excel import *
 from interface.lib.case_log import *
 from interface.config import config
 
+
+
 class BaseCase(unittest.TestCase):   # 继承unittest.TestCase
     @classmethod
     def setUpClass(cls):
@@ -34,11 +36,22 @@ class BaseCase(unittest.TestCase):   # 继承unittest.TestCase
         elif data_type.upper() == 'FORM':   # 表单格式请求
             res = requests.post(url=url, data=json.loads(args), headers=None)
             log_case_info(case_name, url, args, expect_res, res.text)
-            self.assertEqual(res.text, expect_res)
+            #self.assertEqual(res.text, expect_res)
         else:
             res = requests.post(url=url, data=json.loads(args), headers=None)   # JSON格式请求
 #            log_case_info(case_name, url, args, expect_res,res.json())
-            self.assertEqual(res.text,expect_res)
+        if res.text==expect_res:
+            data = 0
+            openpyxl_test(config.report_file,data)
+        else:
+            data=1
+            openpyxl_test(config.report_file, data)
+        self.assertEqual(res.text, expect_res)
+
+
+
+
+
 
 
 

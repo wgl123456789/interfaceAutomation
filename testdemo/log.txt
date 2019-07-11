@@ -1,0 +1,40 @@
+[2019-06-22 16:50:35] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-22 16:50:35] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+[2019-06-22 16:50:35] INFO [test_user_login_normal: testUserLogin.py, 28] 测试用例：test_user_login_normal
+[2019-06-22 16:50:35] INFO [test_user_login_normal: testUserLogin.py, 29] url：http://115.28.108.130:5000/api/user/login/
+[2019-06-22 16:50:35] INFO [test_user_login_normal: testUserLogin.py, 30] 请求参数：{"name": "张三","password":"123456"}
+[2019-06-22 16:50:35] INFO [test_user_login_normal: testUserLogin.py, 31] 期望结果：<h1>登录成功</h1>
+[2019-06-22 16:50:35] INFO [test_user_login_normal: testUserLogin.py, 32] 实际结果：<h1>失败，用户不存在</h1>
+[2019-06-22 16:51:22] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-22 16:51:22] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+[2019-06-22 16:51:22] INFO [test_user_login_normal: testUserLogin.py, 28] 测试用例：test_user_login_normal
+[2019-06-22 16:51:22] INFO [test_user_login_normal: testUserLogin.py, 29] url：http://115.28.108.130:5000/api/user/login/
+[2019-06-22 16:51:22] INFO [test_user_login_normal: testUserLogin.py, 30] 请求参数：{"name": "张三","password":"123456"}
+[2019-06-22 16:51:22] INFO [test_user_login_normal: testUserLogin.py, 31] 期望结果：<h1>登录成功</h1>
+[2019-06-22 16:51:22] INFO [test_user_login_normal: testUserLogin.py, 32] 实际结果：<h1>失败，用户不存在</h1>
+[2019-06-22 17:01:42] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-22 17:01:42] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+[2019-06-22 17:02:15] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-22 17:02:15] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 33
+[2019-06-22 17:02:15] INFO [log_case_info: case_log.py, 7] 测试用例：test_user_login_normal
+[2019-06-22 17:02:15] INFO [log_case_info: case_log.py, 8] url：http://115.28.108.130:5000/api/user/login/
+[2019-06-22 17:02:15] INFO [log_case_info: case_log.py, 9] 请求参数：{"name": "张三","password":"123456"}
+[2019-06-22 17:02:15] INFO [log_case_info: case_log.py, 10] 期望结果：<h1>登录成功</h1>
+[2019-06-22 17:02:15] INFO [log_case_info: case_log.py, 11] 实际结果：<h1>失败，用户不存在</h1>
+[2019-06-25 17:24:22] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-25 17:24:22] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-25 17:24:22] INFO [log_case_info: case_log.py, 7] 测试用例：test_user_login_normal
+[2019-06-25 17:24:22] INFO [log_case_info: case_log.py, 8] url：http://115.28.108.130:5000/api/user/login/
+[2019-06-25 17:24:22] INFO [log_case_info: case_log.py, 9] 请求参数：{"name": "张三","password":"123456"}
+[2019-06-25 17:24:22] INFO [log_case_info: case_log.py, 10] 期望结果：<h1>登录成功</h1>
+[2019-06-25 17:24:22] INFO [log_case_info: case_log.py, 11] 实际结果：<h1>登录成功</h1>
+[2019-06-25 18:11:20] INFO [<module>: run_all.py, 8] ================================== 测试开始 ==================================
+[2019-06-25 18:11:20] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-25 18:11:21] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-25 18:11:21] INFO [log_case_info: case_log.py, 7] 测试用例：test_user_login_normal
+[2019-06-25 18:11:21] INFO [log_case_info: case_log.py, 8] url：http://115.28.108.130:5000/api/user/login/
+[2019-06-25 18:11:21] INFO [log_case_info: case_log.py, 9] 请求参数：{"name": "张三","password":"123456"}
+[2019-06-25 18:11:21] INFO [log_case_info: case_log.py, 10] 期望结果：<h1>登录成功</h1>
+[2019-06-25 18:11:21] INFO [log_case_info: case_log.py, 11] 实际结果：<h1>登录成功</h1>
+[2019-06-25 18:11:23] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-25 18:11:23] INFO [<module>: run_all.py, 17] ================================== 测试结束 ==================================

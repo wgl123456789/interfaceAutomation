@@ -51,3 +51,28 @@
 [2019-06-28 00:39:25] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
 [2019-06-28 00:39:27] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
 [2019-06-28 00:39:28] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
+[2019-06-28 13:42:09] INFO [<module>: run_all.py, 9] ================================== 测试开始 ==================================
+[2019-06-28 13:42:09] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-28 13:42:09] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-28 13:42:11] ERROR [send_email: smtplibTest.py, 29] (535, b'5.7.12 SMTP access disabled')
+[2019-06-28 13:42:11] INFO [<module>: run_all.py, 19] ================================== 测试结束 ==================================
+[2019-06-28 14:08:34] INFO [<module>: run_all.py, 12] ================================== 测试开始 ==================================
+[2019-06-28 14:08:34] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-28 14:08:34] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-28 14:08:35] ERROR [send_email: smtplibTest.py, 29] [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+[2019-06-28 14:09:04] INFO [<module>: run_all.py, 11] ================================== 测试开始 ==================================
+[2019-06-28 14:09:04] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-28 14:09:04] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-28 14:09:04] INFO [<module>: run_all.py, 21] ================================== 测试结束 ==================================
+[2019-06-28 14:37:02] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-06-28 14:37:02] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-06-28 14:37:02] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+[2019-06-28 14:37:02] INFO [<module>: run_all.py, 25] ================================== 测试结束 ==================================
+[2019-07-09 15:28:11] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-09 15:28:12] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-09 15:28:12] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-09 15:28:12] INFO [<module>: run_all.py, 25] ================================== 测试结束 ==================================
+[2019-07-09 20:30:04] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-09 20:30:04] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-09 20:30:04] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-09 20:30:04] INFO [<module>: run_all.py, 25] ================================== 测试结束 ==================================

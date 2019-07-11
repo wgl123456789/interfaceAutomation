@@ -122,10 +122,10 @@ function html_escape(s) {
 </script>
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Api Test</h1>
-<p class='attribute'><strong>测试人员 : </strong> 汪队</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-07-09 20:30:04</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.223910</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，失败 1，错误 1，通过率= 0.00%</p>
+<p class='attribute'><strong>测试人员 : </strong> 卡卡</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-06-25 18:11:20</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.284262</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 1，通过 1，通过率= 100.00%</p>
 
 <p class='description'>测试描述</p>
 </div>
@@ -133,10 +133,10 @@ function html_escape(s) {
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -156,90 +156,27 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='failClass warning'>
-    <td>interface.test.case.testUserLogin.TestUserLogin</td>
+<tr class='passClass warning'>
+    <td>testdemo.testUserLogin.TestUserLogin</td>
+    <td class="text-center">1</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
-<tr id='ft1_1' class='none'>
-    <td class='failCase'><div class='testcase'>test_user_login_normal</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
-    <div id='div_ft1_1' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
-    <div id='div_ft1_1' class="collapse in">
-    <pre>
-    
-ft1_1: {'case_name': 'test_user_login_normal', 'url': 'http://115.28.108.130:5000/api/user/login/', 'method': 'POST', 'data_type': 'json', 'args': '{"name": "张三","password":"123456"}', 'expect_res': '&lt;h1&gt;登录成功&lt;/h1&gt;', 'result': ''} http://115.28.108.130:5000/api/user/login/ {"name": "张三","password":"123456"} &lt;h1&gt;登录成功&lt;/h1&gt; POST json
-Traceback (most recent call last):
-  File "D:\腾讯课堂\interfaceAutomation\interface\test\case\testUserLogin.py", line 12, in test_user_login_normal
-    self.send_request(case_data)
-  File "D:\腾讯课堂\interfaceAutomation\interface\test\case\basecase.py", line 43, in send_request
-    data=self.assertEqual(res.text,expect_res)
-AssertionError: '&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.[249 chars]p&gt;\n' != '&lt;h1&gt;登录成功&lt;/h1&gt;'
-+ &lt;h1&gt;登录成功&lt;/h1&gt;- &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"&gt;
-- &lt;title&gt;500 Internal Server Error&lt;/title&gt;
-- &lt;h1&gt;Internal Server Error&lt;/h1&gt;
-- &lt;p&gt;The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.&lt;/p&gt;
-
-
-
-    </pre>
-    </div>
-    </td>
-</tr>
-
-<tr class='errorClass warning'>
-    <td>unittest.suite._ErrorHolder</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center">1</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
-</tr>
-
-<tr id='ft2_1' class='none'>
-    <td class='errorCase'><div class='testcase'>TestUserReg)</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
-    <div id='div_ft2_1' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
-    <div id='div_ft2_1' class="collapse in">
-    <pre>
-    
-ft2_1: {'case_name': 'test_user_login_normal', 'url': 'http://115.28.108.130:5000/api/user/login/', 'method': 'POST', 'data_type': 'json', 'args': '{"name": "张三","password":"123456"}', 'expect_res': '&lt;h1&gt;登录成功&lt;/h1&gt;', 'result': ''} http://115.28.108.130:5000/api/user/login/ {"name": "张三","password":"123456"} &lt;h1&gt;登录成功&lt;/h1&gt; POST json
-Traceback (most recent call last):
-  File "D:\腾讯课堂\interfaceAutomation\testdemo\test_user_reg.py", line 11, in setUpClass
-    cls.data_list = excel_to_list("test_user_data.xlsx", "TestUserReg")  # 读取TestUserReg工作簿的所有数据
-  File "D:\腾讯课堂\interfaceAutomation\testdemo\read_excel.py", line 5, in excel_to_list
-    wb = xlrd.open_workbook(data_file)  # 打开excel
-  File "D:\developmentTool\Diango\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
-    with open(filename, "rb") as f:
-FileNotFoundError: [Errno 2] No such file or directory: 'test_user_data.xlsx'
-
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt1_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_user_login_normal</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
-    <td>1</td>
-    <td>1</td>
-    <td>通过率：0.00%</td>
+    <td>0</td>
+    <td>通过率：100.00%</td>
 </tr>
 </table>
 
