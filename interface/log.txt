@@ -76,3 +76,31 @@
 [2019-07-09 20:30:04] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
 [2019-07-09 20:30:04] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
 [2019-07-09 20:30:04] INFO [<module>: run_all.py, 25] ================================== 测试结束 ==================================
+[2019-07-18 11:00:50] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-18 11:00:50] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-18 11:00:51] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-18 11:00:54] INFO [<module>: run_all.py, 24] ================================== 测试结束 ==================================
+[2019-07-18 11:03:47] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-18 11:03:47] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-18 11:03:47] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-18 11:03:48] INFO [<module>: run_all.py, 24] ================================== 测试结束 ==================================
+[2019-07-18 11:04:55] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-18 11:04:55] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-18 11:04:56] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-18 11:05:34] INFO [<module>: run_all.py, 24] ================================== 测试结束 ==================================
+[2019-07-18 11:05:44] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-18 11:05:44] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-18 11:05:44] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-18 11:06:27] INFO [<module>: run_all.py, 24] ================================== 测试结束 ==================================
+[2019-07-19 11:35:34] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-19 11:35:34] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-19 11:35:34] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-19 11:35:59] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-19 11:35:59] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 115.28.108.130:5000
+[2019-07-19 11:35:59] DEBUG [_make_request: connectionpool.py, 393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2019-07-19 11:36:02] INFO [<module>: run_all.py, 24] ================================== 测试结束 ==================================
+[2019-07-19 12:02:10] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-19 12:03:23] INFO [<module>: run_all.py, 15] ================================== 测试开始 ==================================
+[2019-07-19 12:03:23] DEBUG [_new_conn: connectionpool.py, 813] Starting new HTTPS connection (1): weixinqa.haoduoke.cn:443
+[2019-07-19 12:03:23] DEBUG [_make_request: connectionpool.py, 393] https://weixinqa.haoduoke.cn:443 "POST /weshop/api/client?r=order/add HTTP/1.1" 200 None
+[2019-07-19 12:03:30] INFO [<module>: run_all.py, 24] ================================== 测试结束 ==================================

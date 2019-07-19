@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.DEBUG,  # log level
 class TestUserLogin(BaseCase):
 
     def test_user_login_normal(self):
-        case_data= self.get_case_data("test_user_login_normal")
+        case_data= self.get_case_data("test_01")
         self.send_request(case_data)
 
 if __name__ == '__main__':   # 非必要，用于测试我们的代码

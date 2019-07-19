@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">Api Test</h1>
 <p class='attribute'><strong>测试人员 : </strong> 汪队</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-07-09 20:30:04</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.223910</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，失败 1，错误 1，通过率= 0.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-07-19 12:03:23</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.538585</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 1，失败 1，通过率= 0.00%</p>
 
 <p class='description'>测试描述</p>
 </div>
@@ -136,7 +136,7 @@ function html_escape(s) {
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
 <a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -177,55 +177,29 @@ function html_escape(s) {
     <div id='div_ft1_1' class="collapse in">
     <pre>
     
-ft1_1: {'case_name': 'test_user_login_normal', 'url': 'http://115.28.108.130:5000/api/user/login/', 'method': 'POST', 'data_type': 'json', 'args': '{"name": "张三","password":"123456"}', 'expect_res': '&lt;h1&gt;登录成功&lt;/h1&gt;', 'result': ''} http://115.28.108.130:5000/api/user/login/ {"name": "张三","password":"123456"} &lt;h1&gt;登录成功&lt;/h1&gt; POST json
+ft1_1: {'case_name': 'test_01', 'url': 'https://weixinqa.haoduoke.cn/weshop/api/client?r=order/add', 'method': 'POST', 'data_type': 'json', 'args': '{"r": "order/add",\n "brandId": "1",\n "buyType": "1",\n "goodsId": "449",\n "goodsNum": "1",\n "optionId": "0",\n "shopCode": "zongbu",\n "specialCode": "",\n "remark": "",\n "addressId": "59",\n "requestUrl": "/weshop/client/order/split?goodsId=449&amp;optionId=0&amp;goodsNum=1&amp;buyType=1&amp;brandId=1&amp;shopCode=zongbu",\n "couponsArray": [],\n "pointSelected": false,\n "deliverySelected": "0"}', 'expect_res': '{"traceId":"5ff4e6ec76e6f2a05b54a12bcd5f68b6f1abb716","code":"200001","msg":"\\u6267\\u884c\\u5f02\\u5e38","redirecturl":null,"data":[],"traces":[{"name":"common\\\\Core::CacheTrace","input":{"url":"http:\\/\\/weixinqa.haoduoke.cn:80\\/weshop\\/api\\/client?r=order\\/add","time":"2019-07-19 11:50:16","action":"client\\\\controllers\\\\order\\\\Add","get":{"r":"order\\/add"},"post":{"brandId":"1","buyType":"1","goodsId":"449","goodsNum":"1","optionId":"0","shopCode":"zongbu","specialCode":"","remark":"","addressId":"59","requestUrl":"\\/weshop\\/client\\/order\\/split?goodsId=449&amp;optionId=0&amp;goodsNum=1&amp;buyType=1&amp;brandId=1&amp;shopCode=zongbu","couponsArray":[],"pointSelected":false,"deliverySelected":"0"}},"output":{"code":"200001","msg":"\\u6267\\u884c\\u5f02\\u5e38","data":[],"totalProcessedTime":"207 ms","memoryPeakUsage":"5.9 MB"},"processedTime":"8 ms","memoryUsage":"226.8 KB"},{"name":"client\\\\models\\\\order\\\\AddForm::done","input":"Undefined index: id","output":null,"processedTime":"68 ms","memoryUsage":"2.4 MB"}]}', 'result': ''} https://weixinqa.haoduoke.cn/weshop/api/client?r=order/add {"r": "order/add",
+ "brandId": "1",
+ "buyType": "1",
+ "goodsId": "449",
+ "goodsNum": "1",
+ "optionId": "0",
+ "shopCode": "zongbu",
+ "specialCode": "",
+ "remark": "",
+ "addressId": "59",
+ "requestUrl": "/weshop/client/order/split?goodsId=449&amp;optionId=0&amp;goodsNum=1&amp;buyType=1&amp;brandId=1&amp;shopCode=zongbu",
+ "couponsArray": [],
+ "pointSelected": false,
+ "deliverySelected": "0"} {"traceId":"5ff4e6ec76e6f2a05b54a12bcd5f68b6f1abb716","code":"200001","msg":"\u6267\u884c\u5f02\u5e38","redirecturl":null,"data":[],"traces":[{"name":"common\\Core::CacheTrace","input":{"url":"http:\/\/weixinqa.haoduoke.cn:80\/weshop\/api\/client?r=order\/add","time":"2019-07-19 11:50:16","action":"client\\controllers\\order\\Add","get":{"r":"order\/add"},"post":{"brandId":"1","buyType":"1","goodsId":"449","goodsNum":"1","optionId":"0","shopCode":"zongbu","specialCode":"","remark":"","addressId":"59","requestUrl":"\/weshop\/client\/order\/split?goodsId=449&amp;optionId=0&amp;goodsNum=1&amp;buyType=1&amp;brandId=1&amp;shopCode=zongbu","couponsArray":[],"pointSelected":false,"deliverySelected":"0"}},"output":{"code":"200001","msg":"\u6267\u884c\u5f02\u5e38","data":[],"totalProcessedTime":"207 ms","memoryPeakUsage":"5.9 MB"},"processedTime":"8 ms","memoryUsage":"226.8 KB"},{"name":"client\\models\\order\\AddForm::done","input":"Undefined index: id","output":null,"processedTime":"68 ms","memoryUsage":"2.4 MB"}]} POST json
+&lt;class 'int'&gt;
+&lt;Worksheet "TestUserLogin"&gt;
 Traceback (most recent call last):
   File "D:\腾讯课堂\interfaceAutomation\interface\test\case\testUserLogin.py", line 12, in test_user_login_normal
     self.send_request(case_data)
-  File "D:\腾讯课堂\interfaceAutomation\interface\test\case\basecase.py", line 43, in send_request
-    data=self.assertEqual(res.text,expect_res)
-AssertionError: '&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.[249 chars]p&gt;\n' != '&lt;h1&gt;登录成功&lt;/h1&gt;'
-+ &lt;h1&gt;登录成功&lt;/h1&gt;- &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"&gt;
-- &lt;title&gt;500 Internal Server Error&lt;/title&gt;
-- &lt;h1&gt;Internal Server Error&lt;/h1&gt;
-- &lt;p&gt;The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.&lt;/p&gt;
-
-
-
-    </pre>
-    </div>
-    </td>
-</tr>
-
-<tr class='errorClass warning'>
-    <td>unittest.suite._ErrorHolder</td>
-    <td class="text-center">1</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center">1</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
-</tr>
-
-<tr id='ft2_1' class='none'>
-    <td class='errorCase'><div class='testcase'>TestUserReg)</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
-    <div id='div_ft2_1' class="collapse">  -->
-
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_1'>错误</button>
-    <div id='div_ft2_1' class="collapse in">
-    <pre>
-    
-ft2_1: {'case_name': 'test_user_login_normal', 'url': 'http://115.28.108.130:5000/api/user/login/', 'method': 'POST', 'data_type': 'json', 'args': '{"name": "张三","password":"123456"}', 'expect_res': '&lt;h1&gt;登录成功&lt;/h1&gt;', 'result': ''} http://115.28.108.130:5000/api/user/login/ {"name": "张三","password":"123456"} &lt;h1&gt;登录成功&lt;/h1&gt; POST json
-Traceback (most recent call last):
-  File "D:\腾讯课堂\interfaceAutomation\testdemo\test_user_reg.py", line 11, in setUpClass
-    cls.data_list = excel_to_list("test_user_data.xlsx", "TestUserReg")  # 读取TestUserReg工作簿的所有数据
-  File "D:\腾讯课堂\interfaceAutomation\testdemo\read_excel.py", line 5, in excel_to_list
-    wb = xlrd.open_workbook(data_file)  # 打开excel
-  File "D:\developmentTool\Diango\lib\site-packages\xlrd\__init__.py", line 111, in open_workbook
-    with open(filename, "rb") as f:
-FileNotFoundError: [Errno 2] No such file or directory: 'test_user_data.xlsx'
+  File "D:\腾讯课堂\interfaceAutomation\interface\test\case\basecase.py", line 49, in send_request
+    self.assertEqual(res.text, expect_res)
+AssertionError: '{"traceId":"c5652867811bdb9032511a64a46c0664d20e49f0"[542 chars]"}]}' != '{"traceId":"5ff4e6ec76e6f2a05b54a12bcd5f68b6f1abb716"[979 chars]"}]}'
+Diff is 1585 characters long. Set self.maxDiff to None to see it.
 
 
     </pre>
@@ -235,10 +209,10 @@ FileNotFoundError: [Errno 2] No such file or directory: 'test_user_data.xlsx'
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>2</td>
+    <td>1</td>
     <td>0</td>
     <td>1</td>
-    <td>1</td>
+    <td>0</td>
     <td>通过率：0.00%</td>
 </tr>
 </table>

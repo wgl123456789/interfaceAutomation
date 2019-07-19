@@ -7,6 +7,6 @@ logging.basicConfig(level=logging.DEBUG,  # log level
                     filemode='a')# 追加模式
 
 
-report_file = r"D:\腾讯课堂\interfaceAutomation\interface\data\test_user_data.xlsx"
+report_file = r"D:\腾讯课堂\interfaceAutomation\interface\data\test_user_data1.xlsx"
 if __name__ == '__main__':
     logging.info("hello1") 
